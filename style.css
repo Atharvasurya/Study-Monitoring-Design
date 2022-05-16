@@ -1,0 +1,147 @@
+  body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar {
+    background: #6596a9;
+    padding: 1px;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+}
+
+.navbar-brand h1{
+font-size: 35px;
+color: #ffff;
+font-family: 'Source Sans Pro', sans-serif;
+margin-left: -80px;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar h5{
+  font-size: 15px;
+  font-weight: 500;
+  margin: 226px 0 0 0;
+  text-align: center;
+  margin-left: -4px;
+  opacity: 0.5;
+}
+ 
+.sidebar a.active {
+  background-color: #ada9a9;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #d7d7d7;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.fas, .fa {
+    font-family: 'Font Awesome 5 Free';
+    color: #4c4949;
+    margin-left: 19px;
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(160, 160, 160);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.progress-image h2{
+  color: black;
+  font-weight: 600;
+  font-size: 45px;
+  margin: 108px 0 -47px 494px;
+}
+
+.progress-image p{
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 69px 0 -47px 586px;
+}
+
+.progress-image img{
+    border: none;
+    padding: 5px;
+    margin: -241px 33px 0 403px;
+    width: 866px;
+    height: 700px;
+}
+

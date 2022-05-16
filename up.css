@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .container {
+      max-width: 1170px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 15px;
+  }
+  
+  .navbar {
+      background: #6596a9;
+      padding: 1px;
+      border: none;
+      border-radius: 0;
+      margin: 0;
+  }
+  
+  .navbar-brand h1{
+  font-size: 35px;
+  color: #ffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: -80px;
+  }
+
